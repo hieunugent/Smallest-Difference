@@ -13,3 +13,8 @@
 - if two num is equal return the array of two num
 - if currentDiff is less than the minDiff than replace the minDiff  
 - continue util this will out of bound for any array
+- call M is length of first array, N is length of second array
+- sorted as MlogM and NlogN 
+- loop with time complexity N + M for worse case;
+- Total time complexity N + NlogN + M + MlogM ~ NlogN +MlogM
+
